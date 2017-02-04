@@ -1,0 +1,45 @@
+<html>
+<header><title>Calculator
+</title>
+</header>
+
+<body>
+<h1 align="center">CALCULATOR</h1>
+<form name="calculator">
+<table align=center >
+<tr>
+<td><input type=button value="1" class="but" onClick="document.calculator.ans.value+='1'"></td>
+<td><input type=button value="2" class="but" onClick="document.calculator.ans.value+='2'"></td>
+<td><input type=button value="3" class="but" onClick="document.calculator.ans.value+='3'"></td>
+<td><input type=button value="+" class="but" onClick="document.calculator.ans.value+='+'"></td>
+</tr>
+<tr>
+<td><input type=button value="4" class="but" onClick="document.calculator.ans.value+='4'"></td>
+<td><input type=button value="5" class="but" onClick="document.calculator.ans.value+='5'"></td>
+<td><input type=button value="6" class="but" onClick="document.calculator.ans.value+='6'"></td>
+<td><input type=button value="-" class="but" onClick="document.calculator.ans.value+='-'"></td>
+</tr>
+<tr>
+<td><input type=button value="7" class="but" onClick="document.calculator.ans.value+='7'"></td>
+<td><input type=button value="8" class="but" onClick="document.calculator.ans.value+='8'"></td>
+<td><input type=button value="9" class="but" onClick="document.calculator.ans.value+='9'"></td>
+<td><input type=button value="*" class="but" onClick="document.calculator.ans.value+='*'"></td>
+</tr>
+<tr>
+<td><input type=button value="0" class="but" onClick="document.calculator.ans.value+='0'"></td>
+<td><input type=reset value="reset" class="but"></td>
+<td><input type=button value="=" class="but" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"></td>
+<td><input type=button value="/" class="but" onClick="document.calculator.ans.value+='/'"></td>
+
+</tr>
+<tr><td colspan="4"><input type="textfield" name="ans" value="" size="54%"></td></tr>
+</table>
+</form>
+<style type="text/css">
+.but
+{
+height:130; width:100;
+}
+</style>
+</body> 
+</html>
